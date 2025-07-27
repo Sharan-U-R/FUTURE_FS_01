@@ -11,7 +11,7 @@ function Contact() {
 
     const form = e.target;
     const formData = new FormData(form);
-    
+
     // Convert FormData to regular object
     const data = {
       name: formData.get('name'),
@@ -37,7 +37,7 @@ function Contact() {
       });
 
       const result = await response.json();
-      
+
       if (result.success) {
         setFormStatus('success');
         form.reset();
@@ -55,8 +55,8 @@ function Contact() {
     <section id="contact" className="contact">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title white">Get In Touch</h2>
-          <div className="section-divider white"></div>
+          <h2 className="section-title">Get In Touch</h2>
+          <div className="section-divider"></div>
         </div>
         <div className="contact-content">
           <div className="contact-info">
@@ -109,7 +109,7 @@ function Contact() {
                 <label htmlFor="message">Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
               </div>
-              
+
               {/* Status Messages */}
               {formStatus === 'success' && (
                 <div className="form-status success">
@@ -123,7 +123,7 @@ function Contact() {
                   Sorry, there was an error sending your message. Please try again.
                 </div>
               )}
-              
+
               <button type="submit" className="btn-primary" disabled={isSubmitting}>
                 {isSubmitting ? (
                   <>
