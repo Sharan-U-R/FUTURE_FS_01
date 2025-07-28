@@ -129,7 +129,7 @@ function About() {
                   <div className="education-period">2022-Present</div>
                   <h3 className="education-degree">Bachelor of Engineering</h3>
                   <p className="education-school">MITE</p>
-                  <div className="education-grade">CGPA: 8.79</div>
+                  <div className="education-grade">CGPA: 8.66</div>
                 </div>
               </div>
             </div>
