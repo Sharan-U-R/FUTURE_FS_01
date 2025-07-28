@@ -8,13 +8,12 @@ function About() {
           <div className="about-text-section">
             <h2 className="about-title">About me</h2>
             <p className="about-intro">
-              My name's Sharan. I'm a web developer and Computer Science student based in Karnataka, India.
+              Hi! I’m Sharan U R, a passionate and detail-oriented web developer with a strong foundation in HTML, CSS, and JavaScript. I love bringing ideas to life through clean, responsive, and user-friendly designs.
             </p>
             <p className="about-description">
-              During the day I work as a student at MITE and in the evening I work on freelance projects 
-              and utilize the time to build my own products. I spend my leisure hours drawing and playing 
-              table tennis. Right now I'm also trying a hand at machine learning and AI. I love to 
-              learn and explore new arenas.
+             I’m currently pursuing my Bachelor’s in Computer Science Engineering, where I’ve explored everything from core programming in C to modern frontend frameworks. Along the way, I’ve built real-world projects, contributed to collaborative teams, and constantly pushed myself to learn and grow.
+
+When I’m not coding, you’ll probably find me sketching anime art, exploring new tech tools, or working on side projects that solve everyday problems.
             </p>
           </div>
           <div className="about-illustration">
@@ -74,7 +73,7 @@ function About() {
           </div>
         </div>
         
-        {/* Education section with new design */}
+        {/* Education section */}
         <div className="education-section">
           <div className="education-content">
             <div className="education-cards">
@@ -130,7 +129,7 @@ function About() {
                   <div className="education-period">2022-Present</div>
                   <h3 className="education-degree">Bachelor of Engineering</h3>
                   <p className="education-school">MITE</p>
-                  <div className="education-grade">CGPA: 8.5</div>
+                  <div className="education-grade">CGPA: 8.79</div>
                 </div>
               </div>
             </div>

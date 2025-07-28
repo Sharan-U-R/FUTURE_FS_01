@@ -29,7 +29,7 @@ function Hero() {
           <h1 className="hero-main-title">
             Hi, I'm <span className="hero-name">Sharan U R</span>
           </h1>
-          <h2 className="hero-role">Full Stack Developer</h2>
+          <h2 className="hero-role">Web Developer</h2>
           <p className="hero-description">
             Building digital products with a focus on clean code, accessibility,
             and outstanding user experiences.
