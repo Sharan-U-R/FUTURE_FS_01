@@ -14,12 +14,12 @@ function Experience() {
     },
     {
       id: 2,
-      icon: "🎓",
-      title: "Learning & Development",
-      role: "Self-Directed Learning",
-      period: "2022 – Present",
-      description: "Continuously expanding my knowledge in web development, Java programming, and emerging technologies through online courses, coding challenges, and personal projects.",
-      type: "Education"
+      icon: "🚀",
+      title: "Full Stack Web Development Internship",
+      role: "Full Stack Web Development Intern – Future Interns",
+      period: "July 2025 – August 2025",
+      description: "Built applications such as E-commerce platform ,a personal portfolio.",
+      type: "Internship"
     },
     {
       id: 3,
